@@ -57,6 +57,13 @@ textarea{
   color: white;
 }
 
+.storage-alert{
+  text-align: center;
+  color: #77dd77;
+  font-weight: bolder;
+
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
