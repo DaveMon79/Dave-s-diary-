@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&family=Noto+Sans+HK:wght@700&family=Noto+Sans+JP&family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <title>Work Day Scheduler</title>
 </head>
@@ -22,11 +23,13 @@
   </header>
   <div class="container">
 
-    <section class="storage-alert" id="localStorage">Your appointment has been stored to local storage</section>
+    <section id="show-hide" class="storage-alert">
+      <div class="storage-alert-text">Your appointment has been stored to local storage</div>
+    </section>
 
 		<div id="8" class="row time-block">
             <div class="col-md-1 hour">
-                8 AM
+                8am
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -35,7 +38,7 @@
 
 		<div id="9" class="row time-block">
             <div class="col-md-1 hour">
-                9 AM
+                9am
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -44,7 +47,7 @@
 
 		<div id="10" class="row time-block">
             <div class="col-md-1 hour">
-                10 AM
+                10am
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -53,7 +56,7 @@
 
 		<div id="11" class="row time-block">
             <div class="col-md-1 hour">
-                11 AM
+                11am
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -62,7 +65,7 @@
 
 		<div id="12" class="row time-block">
             <div class="col-md-1 hour">
-                12 PM
+                12am
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -71,7 +74,7 @@
 
 		<div id="13" class="row time-block">
             <div class="col-md-1 hour">
-                1 PM
+                1pm
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -80,7 +83,7 @@
 
 		<div id="14" class="row time-block">
             <div class="col-md-1 hour">
-                2 PM
+                2pm
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -89,7 +92,7 @@
 
 		<div id="15" class="row time-block">
             <div class="col-md-1 hour">
-                3 PM
+                3pm
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -98,7 +101,7 @@
 
 		<div id="16" class="row time-block">
             <div class="col-md-1 hour">
-                4 PM
+                4pm
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -107,7 +110,7 @@
 
 		<div id="17" class="row time-block">
             <div class="col-md-1 hour">
-                5 PM
+                5pm
             </div>
             <textarea class="col-md-10 description">
             </textarea>
@@ -116,7 +119,7 @@
 
 	</div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./script.js"></script>
 </body>
