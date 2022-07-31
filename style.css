@@ -60,10 +60,12 @@ textarea{
   color: white;
 }
 
+/** Set new HTML section to display none **/
 .storage-alert {
   display: none;
 }
 
+/** Styles and postions font in new HTML ssection **/
 .storage-alert-text {
   display: flex;
   justify-content: center;
